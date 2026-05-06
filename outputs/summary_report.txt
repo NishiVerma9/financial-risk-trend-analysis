@@ -1,0 +1,26 @@
+
+═══════════════════════════════════════════════════════
+        FINANCIAL RISK TREND ANALYSIS – SUMMARY
+═══════════════════════════════════════════════════════
+
+Dataset        : Kaggle Credit Card Fraud Detection
+Total Records  : 284,807
+
+── Transaction Breakdown ───────────────────────────────
+  Legitimate   : 284,315  (99.83%)
+  Fraudulent   : 492   (0.17%)
+
+── Amount Analysis ─────────────────────────────────────
+  Avg Legit Amount   : $88.29
+  Avg Fraud Amount   : $122.21
+
+── Risk Trend ──────────────────────────────────────────
+  Peak Fraud Hour    : 2:00
+  Max Hourly Rate    : 1.71%
+
+── Key Insights ────────────────────────────────────────
+  • Dataset is highly imbalanced (~0.2% fraud)
+  • Fraud transactions tend to be lower in amount
+  • Fraud risk peaks around hour 2:00 of the day
+
+═══════════════════════════════════════════════════════
